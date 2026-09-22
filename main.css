@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bandeau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100px;
+    background-color: rgb(0, 255, 234);
+}
+
+.contenu {
+    width: 25%;
+    height: 240px;
+    background-color: rgb(255, 251, 0);
+    display: grid;
+    place-items: center;
+}
+
+.pied_de_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100px;
+    background-color: rgba(30, 255, 30, 0.856);
+}
