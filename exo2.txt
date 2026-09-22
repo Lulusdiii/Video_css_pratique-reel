@@ -1,0 +1,82 @@
+html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="bandeau">
+        <h2>bandeau</h2>
+    </div>
+    <div class="main">
+        <div class="menu">
+            <h2>Menu</h2>
+        </div>
+        <div class="contenu">
+            <h2>contenu</h2>
+        </div>
+    </div>
+    <div class="pied_de_page">
+        <h2>Pied de page</h2>
+    </div>
+
+
+</body>
+
+</html>
+
+
+CSS
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bandeau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+    background-color: rgb(0, 255, 234);
+}
+
+.contenu {
+    width: 40%;
+    height: 240px;
+    background-color: rgb(255, 251, 0);
+    display: grid;
+    place-items: center;
+}
+
+.pied_de_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+    background-color: rgba(30, 255, 30, 0.856);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 240px;
+    background-color: rgb(211, 103, 169);
+}
