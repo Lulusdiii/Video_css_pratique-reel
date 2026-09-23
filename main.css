@@ -66,6 +66,16 @@
     font-size: 20px;
 }
 
+#para .middle-sentence-red {
+    color: red;
+    font-size: 30px;
+}
+
+#para .middle-sentence-blue {
+    color: blue;
+    font-size: 20px;
+}
+
 .block-news {
     float: right;
     width: 140px;
