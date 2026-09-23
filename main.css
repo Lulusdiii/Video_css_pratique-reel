@@ -79,3 +79,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.p_pied_de_page span{
+
+color: blue;
+
+font-size: 20px;
+
+}
